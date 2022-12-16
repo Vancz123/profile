@@ -1,0 +1,58 @@
+body {
+    font-family: Space Mono;
+    background-color: #0505f6;
+    color: #f8c409;
+    padding: 25px;
+    text-align: center;
+   }
+   h1, h2, h3 {
+    font-family: Space Grotesk;
+    color: #fc0e0e;
+   }
+   li {
+    display: inline;
+    }
+   ul {
+    padding: 0px;
+   }
+   a {
+    text-decoration: none;
+    color: #0dc7e7;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+   }
+   a:hover {
+    color: #FF6CF4;
+    }
+   #profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   }
+   .card {
+    background-color: purple;
+    padding: 20px; 
+    margin: 25px auto;
+    border: 1px solid #EAEAEA}
+
+    @media (max-width: 960px) {
+        /* For a screen < 960px, this CSS will be read */
+        .container {
+          width: 700px;
+        }
+      }
+      
+      @media (max-width: 720px) {
+        /* For a screen < 720px, this CSS will be read */
+        .container {
+          width: 500px;
+        }
+      }
+      
+      @media (max-width: 540px) {
+        /* For a screen < 540px, this CSS will be read */
+        .container {
+          width: 300px;
+        }
+      }
